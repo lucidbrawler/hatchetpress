@@ -4,7 +4,7 @@ import { Button, Alert, Breadcrumb, Container, Row, Col, Card, Form, Navbar  } f
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Bar from './nav';
 import Prints from './prints';
-import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import {HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
