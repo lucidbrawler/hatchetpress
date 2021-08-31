@@ -20,7 +20,9 @@ function App() {
 
 const Home = () =>(
   <div>
+  <img src={logo} width={128} height={77} className="App-logo" alt="logo" />
   <header className="App-header">
+
   <Card className="Card" style={{color: "#000"}}>
     <Card.Img src="https://picsum.photos/300/50"/>
     <Card.Body>
@@ -35,10 +37,10 @@ const Home = () =>(
   </Card>
   <Row className='Row'>
     <Col md>
-    <p className="Paragraph"> Hey check it out Paragraph #1 awaits your input. </p>
+    <p className="Paragraph"> Welcome to Hatchet Press! </p>
     </Col>
     <Col md>
-    <p className="Paragraph"> Hey is this how you make a second Paragraph?</p>
+    <p className="Paragraph"> Discover new possibilities weekly with our quest interface!</p>
     </Col>
   </Row>
   <Row >
@@ -63,9 +65,9 @@ const Home = () =>(
     </Form>
   </Col>
   </Row>
-  <a className="App-link" href="./About" target="_blank" rel="noopener noreferrer"
+  <a className="App-link" href="./prints" target="_blank" rel="noopener noreferrer"
   >
-  Take a look inside
+  Prints
   </a>
 </header>
   </div>

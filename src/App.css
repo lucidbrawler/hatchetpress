@@ -10,6 +10,13 @@ nav{
   color: white;
 }
 
+.image{
+border: solid;
+margin: 1rem;
+text-align: center;
+
+}
+
 .navfont{
   color: red;
 }
