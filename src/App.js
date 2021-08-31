@@ -65,7 +65,7 @@ const Home = () =>(
     </Form>
   </Col>
   </Row>
-  <a className="App-link" href="./prints" target="_blank" rel="noopener noreferrer"
+  <a className="App-link" href="/prints" target="_blank" rel="noopener noreferrer"
   >
   Prints
   </a>
