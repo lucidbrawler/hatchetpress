@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/hatchetpress/static/css/main.4395af94.chunk.css",
+    "main.js": "/hatchetpress/static/js/main.0169da5c.chunk.js",
+    "main.js.map": "/hatchetpress/static/js/main.0169da5c.chunk.js.map",
+    "runtime-main.js": "/hatchetpress/static/js/runtime-main.897b5379.js",
+    "runtime-main.js.map": "/hatchetpress/static/js/runtime-main.897b5379.js.map",
+    "static/css/2.f3d634d7.chunk.css": "/hatchetpress/static/css/2.f3d634d7.chunk.css",
+    "static/js/2.4be05f5b.chunk.js": "/hatchetpress/static/js/2.4be05f5b.chunk.js",
+    "static/js/2.4be05f5b.chunk.js.map": "/hatchetpress/static/js/2.4be05f5b.chunk.js.map",
+    "static/js/3.88fa5a4a.chunk.js": "/hatchetpress/static/js/3.88fa5a4a.chunk.js",
+    "static/js/3.88fa5a4a.chunk.js.map": "/hatchetpress/static/js/3.88fa5a4a.chunk.js.map",
+    "index.html": "/hatchetpress/index.html",
+    "static/css/2.f3d634d7.chunk.css.map": "/hatchetpress/static/css/2.f3d634d7.chunk.css.map",
+    "static/css/main.4395af94.chunk.css.map": "/hatchetpress/static/css/main.4395af94.chunk.css.map",
+    "static/js/2.4be05f5b.chunk.js.LICENSE.txt": "/hatchetpress/static/js/2.4be05f5b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/hatchetpress/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.897b5379.js",
+    "static/css/2.f3d634d7.chunk.css",
+    "static/js/2.4be05f5b.chunk.js",
+    "static/css/main.4395af94.chunk.css",
+    "static/js/main.0169da5c.chunk.js"
+  ]
+}
