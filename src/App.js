@@ -11,7 +11,7 @@ function App() {
     <Router>
     <div className="App">
     <Bar />
-    <Route path="https://lucidbrawler.github.io/hatchetpress/" exact component={Home}/>
+    <Route path="/" exact component={Home}/>
     <Route path="/prints" component={Prints}/>
     </div>
     </Router>
