@@ -42,7 +42,7 @@ function Prints() {
           <img src={image} width={256} height={256} className="image" alt="logo"/>
           </Col>
         </Row>
-          <a className="App-link" href="/" target="_blank" rel="noopener noreferrer"
+          <a className="App-link" href="./" target="_blank" rel="noopener noreferrer"
         >
           Back Home
         </a>
