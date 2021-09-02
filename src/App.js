@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import { Button, Alert, Breadcrumb, Container, Row, Col, Card, Form, Navbar  } from 'react-bootstrap'
+import { Button, Alert, Breadcrumb, Container, Row, Col, Card, Form, Navbar, Image  } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Bar from './nav';
 import Prints from './prints';
 import {HashRouter as Router, Switch, Route } from 'react-router-dom';
+import image from './components/images/CCM COVER.JPG'
+import { Grid } from '@material-ui/core'
+import steg from './components/images/ster reg.jpg'
+
 
 function App() {
   return (
@@ -19,55 +23,30 @@ function App() {
 }
 
 const Home = () =>(
-  <div>
-  <img src={logo} width={128} height={77} className="App-logo" alt="logo" />
+  <div style={{ display:'flex', justifyContent:'center'}}>
   <header className="App-header">
-
-  <Card className="Card" style={{color: "#000"}}>
-    <Card.Img src="https://picsum.photos/300/50"/>
-    <Card.Body>
-      <Card.Title>
-        Card Example
-      </Card.Title>
+  <Container className="containers">
+  <Card className="Card" >
+  <img src={image} remwidth={356} remheight={556} className="image" />
+  <Card.Body >
+    <Card.Title>
+      By Kenneth Sinclair
+    </Card.Title>
       <Card.Text>
-        This is an example of a react bootstrap cards
+      <p className="Paragraph">
+            A Mortician, Harold, becomes the unexpected owner to a
+        key he believes came to him for a purpose. After seeing
+        a ghost at his most recent funeral, Andrew, he is swept
+        up in the belief that the key and boy are signs to his fate.
+        While Harold struggles to find purpose in this life, Andrew
+        searches for purpose in the afterlife.
+      </p>
       </Card.Text>
-      <Button variant="primary">Read More</Button>
-    </Card.Body>
+    <Button href="https://www.lulu.com/en/us/shop/kenneth-sinclair/coffins-caskets-and-mourn/paperback/product-1zk2krjq.html?page=1&pageSize=4" variant="primary">Read More</Button>
+  </Card.Body>
   </Card>
-  <Row className='Row'>
-    <Col md>
-    <p className="Paragraph"> Welcome to Hatchet Press! </p>
-    </Col>
-    <Col md>
-    <p className="Paragraph"> Discover new possibilities weekly with our quest interface!</p>
-    </Col>
-  </Row>
-  <Row >
-    <Col md>
-    <Form className='forms' md>
-      <Form.Group controlId="formEmail">
-        <Form.Label>Email Address</Form.Label>
-        <Form.Control type="email" placeholder="Example@email.com" />
-        <Form.Text className="text-muted">
-          Well never share youre email address, trust us!
-        </Form.Text>
-      </Form.Group>
-    </Form>
-  </Col>
-  <Col md>
-  <Form className='forms' md>
-    <Form.Group controlId="formPassword">
-      <Form.Label>Password</Form.Label>
-      <Form.Control type="password" placeholder="Password" />
-      </Form.Group>
-      <Button href="./About" className="Button" variant="primary" type="submit">Login</Button>
-    </Form>
-  </Col>
-  </Row>
-  <a className="App-link" href="#/prints" target="_blank" rel="noopener noreferrer">
-  Prints
-  </a>
+  </Container>
+  <Button href="#/prints" variant="primary">Print Shop</Button>
 </header>
   </div>
 );
