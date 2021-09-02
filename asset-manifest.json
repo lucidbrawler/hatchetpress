@@ -1,26 +1,35 @@
 {
   "files": {
-    "main.css": "/hatchetpress/static/css/main.4395af94.chunk.css",
-    "main.js": "/hatchetpress/static/js/main.4efd091f.chunk.js",
-    "main.js.map": "/hatchetpress/static/js/main.4efd091f.chunk.js.map",
-    "runtime-main.js": "/hatchetpress/static/js/runtime-main.897b5379.js",
-    "runtime-main.js.map": "/hatchetpress/static/js/runtime-main.897b5379.js.map",
+    "main.css": "/hatchetpress/static/css/main.5af1b3dc.chunk.css",
+    "main.js": "/hatchetpress/static/js/main.953c6a3e.chunk.js",
+    "main.js.map": "/hatchetpress/static/js/main.953c6a3e.chunk.js.map",
+    "runtime-main.js": "/hatchetpress/static/js/runtime-main.302d8eb6.js",
+    "runtime-main.js.map": "/hatchetpress/static/js/runtime-main.302d8eb6.js.map",
     "static/css/2.f3d634d7.chunk.css": "/hatchetpress/static/css/2.f3d634d7.chunk.css",
-    "static/js/2.8a7ef6f3.chunk.js": "/hatchetpress/static/js/2.8a7ef6f3.chunk.js",
-    "static/js/2.8a7ef6f3.chunk.js.map": "/hatchetpress/static/js/2.8a7ef6f3.chunk.js.map",
-    "static/js/3.88fa5a4a.chunk.js": "/hatchetpress/static/js/3.88fa5a4a.chunk.js",
-    "static/js/3.88fa5a4a.chunk.js.map": "/hatchetpress/static/js/3.88fa5a4a.chunk.js.map",
+    "static/js/2.16da1eed.chunk.js": "/hatchetpress/static/js/2.16da1eed.chunk.js",
+    "static/js/2.16da1eed.chunk.js.map": "/hatchetpress/static/js/2.16da1eed.chunk.js.map",
+    "static/js/3.75ae1979.chunk.js": "/hatchetpress/static/js/3.75ae1979.chunk.js",
+    "static/js/3.75ae1979.chunk.js.map": "/hatchetpress/static/js/3.75ae1979.chunk.js.map",
     "index.html": "/hatchetpress/index.html",
     "static/css/2.f3d634d7.chunk.css.map": "/hatchetpress/static/css/2.f3d634d7.chunk.css.map",
-    "static/css/main.4395af94.chunk.css.map": "/hatchetpress/static/css/main.4395af94.chunk.css.map",
-    "static/js/2.8a7ef6f3.chunk.js.LICENSE.txt": "/hatchetpress/static/js/2.8a7ef6f3.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/hatchetpress/static/media/logo.6ce24c58.svg"
+    "static/css/main.5af1b3dc.chunk.css.map": "/hatchetpress/static/css/main.5af1b3dc.chunk.css.map",
+    "static/js/2.16da1eed.chunk.js.LICENSE.txt": "/hatchetpress/static/js/2.16da1eed.chunk.js.LICENSE.txt",
+    "static/media/0220160146.e7b8c2e8.jpg": "/hatchetpress/static/media/0220160146.e7b8c2e8.jpg",
+    "static/media/Attritioni Ascending.8cc81f00.jpg": "/hatchetpress/static/media/Attritioni Ascending.8cc81f00.jpg",
+    "static/media/CCM COVER.6e7972b6.JPG": "/hatchetpress/static/media/CCM COVER.6e7972b6.JPG",
+    "static/media/Carrion 2.9b98f096.jpg": "/hatchetpress/static/media/Carrion 2.9b98f096.jpg",
+    "static/media/Lying Cat CP.b7f4701f.jpg": "/hatchetpress/static/media/Lying Cat CP.b7f4701f.jpg",
+    "static/media/lizard desert cp.8a30a261.jpg": "/hatchetpress/static/media/lizard desert cp.8a30a261.jpg",
+    "static/media/logo.6ce24c58.svg": "/hatchetpress/static/media/logo.6ce24c58.svg",
+    "static/media/ster reg.89c2f863.jpg": "/hatchetpress/static/media/ster reg.89c2f863.jpg",
+    "static/media/three bulls.dd5eaf7a.jpg": "/hatchetpress/static/media/three bulls.dd5eaf7a.jpg",
+    "static/media/tri top orange set 2.bf7d7c47.jpg": "/hatchetpress/static/media/tri top orange set 2.bf7d7c47.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.897b5379.js",
+    "static/js/runtime-main.302d8eb6.js",
     "static/css/2.f3d634d7.chunk.css",
-    "static/js/2.8a7ef6f3.chunk.js",
-    "static/css/main.4395af94.chunk.css",
-    "static/js/main.4efd091f.chunk.js"
+    "static/js/2.16da1eed.chunk.js",
+    "static/css/main.5af1b3dc.chunk.css",
+    "static/js/main.953c6a3e.chunk.js"
   ]
 }
