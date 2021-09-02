@@ -46,7 +46,7 @@ const Home = () =>(
   </Card.Body>
   </Card>
   </Container>
-  <Button href="#/prints" variant="primary">Print Shop</Button>
+  <Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary">Print Shop</Button>
 </header>
   </div>
 );
