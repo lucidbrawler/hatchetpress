@@ -16,7 +16,7 @@ import liz from './components/images/lizard desert cp.jpg'
 function Prints() {
   return (
     <div className="App">
-      
+
       <header className="App-header">
         <Container fluid>
         <Row>
@@ -51,10 +51,14 @@ function Prints() {
           <img src={threebulls} remwidth={256} height={256} className="image" alt="logo"/>
           </Col>
         </Row>
+
+          <Button  href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Print Shop</Button>
+        <Row>
           <a className="App-link" href="./" target="_blank" rel="noopener noreferrer"
         >
           Back Home
         </a>
+        </Row>
         </Container>
       </header>
     </div>

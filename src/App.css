@@ -45,6 +45,7 @@ margin: 1rem;
   padding: 1rem;
   margin: 1rem;
   max-width: 26rem;
+  object-fit: fill;
 }
 
 .Card_image{
@@ -62,12 +63,12 @@ margin: 1rem;
 
 .Paragraph {
   background-color: #282c34;
-  margin: 5px;
+  margin: 0px;
   border-radius: 30px 30px 30px 30px;
   border: skyblue;
   border-style: solid;
   text-align: left;
-  padding: 1rem;
+  padding: 10px;
 
 }
 
@@ -105,13 +106,15 @@ margin: 1rem;
   min-height: 100vh;
   text-align: center;
   align-items: center;
-
-
-
-
-
   font-size: calc(10px + 2vmin);
   color: black;
+}
+
+.Button{
+  background-color: gray;
+  
+
+
 }
 
 .title{
