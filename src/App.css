@@ -42,13 +42,16 @@ margin: 1rem;
 }
 
 .Card {
+  padding: 1rem;
   margin: 1rem;
   max-width: 26rem;
 }
 
 .Card_image{
   border: solid;
+  padding: 1rem;
   max-width: 100%;
+  object-fit: fill;
 }
 
 .App {
@@ -59,8 +62,8 @@ margin: 1rem;
 
 .Paragraph {
   background-color: #282c34;
-  margin: 10px;
-  border-radius: 30px 5px 30px 5px;
+  margin: 5px;
+  border-radius: 30px 30px 30px 30px;
   border: skyblue;
   border-style: solid;
   text-align: left;
@@ -107,14 +110,14 @@ margin: 1rem;
 
 
 
-  font-size: calc(6px + 2vmin);
+  font-size: calc(10px + 2vmin);
   color: black;
 }
 
 .title{
   margin:6px;
   font-size: calc(15px + 2vmin);
-  color: black;
+  color: aqua;
 }
 
 @keyframes App-logo-spin {
