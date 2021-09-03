@@ -31,10 +31,10 @@ margin: 1rem;
 }
 
 .containers{
-  padding: 2rem;
+  padding: 1rem;
   margin: 1rem;
   background: teal;
-
+  object-fit: fill;
 
 }
 .grid {
@@ -112,7 +112,7 @@ margin: 1rem;
 
 .Button{
   background-color: gray;
-  
+
 
 
 }
