@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/hatchetpress/static/css/main.5af1b3dc.chunk.css",
-    "main.js": "/hatchetpress/static/js/main.b06a64cc.chunk.js",
-    "main.js.map": "/hatchetpress/static/js/main.b06a64cc.chunk.js.map",
+    "main.css": "/hatchetpress/static/css/main.59069b13.chunk.css",
+    "main.js": "/hatchetpress/static/js/main.4098be7e.chunk.js",
+    "main.js.map": "/hatchetpress/static/js/main.4098be7e.chunk.js.map",
     "runtime-main.js": "/hatchetpress/static/js/runtime-main.302d8eb6.js",
     "runtime-main.js.map": "/hatchetpress/static/js/runtime-main.302d8eb6.js.map",
     "static/css/2.f3d634d7.chunk.css": "/hatchetpress/static/css/2.f3d634d7.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.75ae1979.chunk.js.map": "/hatchetpress/static/js/3.75ae1979.chunk.js.map",
     "index.html": "/hatchetpress/index.html",
     "static/css/2.f3d634d7.chunk.css.map": "/hatchetpress/static/css/2.f3d634d7.chunk.css.map",
-    "static/css/main.5af1b3dc.chunk.css.map": "/hatchetpress/static/css/main.5af1b3dc.chunk.css.map",
+    "static/css/main.59069b13.chunk.css.map": "/hatchetpress/static/css/main.59069b13.chunk.css.map",
     "static/js/2.16da1eed.chunk.js.LICENSE.txt": "/hatchetpress/static/js/2.16da1eed.chunk.js.LICENSE.txt",
     "static/media/0220160146.e7b8c2e8.jpg": "/hatchetpress/static/media/0220160146.e7b8c2e8.jpg",
     "static/media/Attritioni Ascending.8cc81f00.jpg": "/hatchetpress/static/media/Attritioni Ascending.8cc81f00.jpg",
@@ -29,7 +29,7 @@
     "static/js/runtime-main.302d8eb6.js",
     "static/css/2.f3d634d7.chunk.css",
     "static/js/2.16da1eed.chunk.js",
-    "static/css/main.5af1b3dc.chunk.css",
-    "static/js/main.b06a64cc.chunk.js"
+    "static/css/main.59069b13.chunk.css",
+    "static/js/main.4098be7e.chunk.js"
   ]
 }
