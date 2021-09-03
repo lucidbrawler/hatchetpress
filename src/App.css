@@ -46,6 +46,11 @@ margin: 1rem;
   max-width: 26rem;
 }
 
+.Card_image{
+  border: solid;
+  max-width: 100%;
+}
+
 .App {
   background-color: #282c34;
 

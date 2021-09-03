@@ -27,7 +27,7 @@ const Home = () =>(
   <header className="App-header">
   <Container className="containers">
   <Card className="Card" >
-  <img src={image} remwidth={356} remheight={556} className="image" />
+  <Card.Img className="Card_image" src={image}   />
   <Card.Body >
     <Card.Title>
       By Kenneth Sinclair
