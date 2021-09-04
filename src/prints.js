@@ -1,7 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Button, Alert, Breadcrumb, Container, Row, Col, Card, Form, Navbar  } from 'react-bootstrap'
-import image from './components/images/images.png'
+import { Button,  Container, Row, Col } from 'react-bootstrap'
 import tritop from './components/images/tri top orange set 2.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import steg from './components/images/ster reg.jpg'
@@ -21,34 +20,34 @@ function Prints() {
         <Container fluid>
         <Row>
           <Col md>
-           <img src={tritop} remwidth={556} height={356} className="image" alt="logo"/>
+           <img src={tritop} remwidth={556} height={356} className="image" alt=""/>
           </Col>
           <Col md>
-           <img src={liz} remwidth={256} height={256} className="image" alt="logo" />
-          </Col>
-        </Row>
-        <Row>
-          <Col md>
-          <img src={carrion} remwidth={256} height={556} className="image" alt="logo"/>
-          </Col>
-          <Col md>
-           <img src={hooded} remwidth={256} height={456} className="image" alt="logo"/>
+           <img src={liz} remwidth={256} height={256} className="image" alt="" />
           </Col>
         </Row>
         <Row>
           <Col md>
-           <img src={lying} remwidth={256} height={256} className="image" alt="logo"/>
+          <img src={carrion} remwidth={256} height={556} className="image" alt=""/>
           </Col>
           <Col md>
-          <img src={steg} remwidth={256} height={256} className="image" alt="logo"/>
+           <img src={hooded} remwidth={256} height={456} className="image" alt=""/>
           </Col>
         </Row>
         <Row>
           <Col md>
-           <img src={onebull} remwidth={256} height={356} className="image" alt="logo"/>
+           <img src={lying} remwidth={256} height={256} className="image" alt=""/>
           </Col>
           <Col md>
-          <img src={threebulls} remwidth={256} height={256} className="image" alt="logo"/>
+          <img src={steg} remwidth={256} height={256} className="image" alt=""/>
+          </Col>
+        </Row>
+        <Row>
+          <Col md>
+           <img src={onebull} remwidth={256} height={356} className="image" alt=""/>
+          </Col>
+          <Col md>
+          <img src={threebulls} remwidth={256} height={256} className="image" alt=""/>
           </Col>
         </Row>
 

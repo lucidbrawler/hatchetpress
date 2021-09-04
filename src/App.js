@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Button, Alert, Breadcrumb, Container, Row, Col, Card, Form, Navbar, Image  } from 'react-bootstrap'
+import { Button, Container, Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Bar from './nav';
 import Prints from './prints';
-import {HashRouter as Router, Switch, Route } from 'react-router-dom';
+import {HashRouter as Router,  Route } from 'react-router-dom';
 import image from './components/images/CCM COVER.JPG'
-import { Grid } from '@material-ui/core'
-import steg from './components/images/ster reg.jpg'
+
+
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 const Home = () =>(
   <div style={{ display:'flex', justifyContent:'center'}}>
   <header className="App-header">
-  <Container className="containers">
+  <Container fluid className="containers">
   <Card className="Card" >
   <Card.Img className="Card_image" src={image}   />
   <Card.Body >

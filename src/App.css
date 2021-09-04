@@ -11,24 +11,17 @@
 
 
 .image{
+background-color: teal;
 border: solid;
-margin: 1rem;
+margin-bottom: 10px;
+margin-top: 10px;
+max-width: 100%;
+object-fit: contain;
 
 
 }
 
-.navfont{
-  color: red;
-}
 
-.navlinks{
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-
-}
 
 .containers{
   padding: 1rem;
@@ -37,9 +30,7 @@ margin: 1rem;
   object-fit: fill;
 
 }
-.grid {
 
-}
 
 .Card {
   padding: 1rem;
@@ -101,13 +92,15 @@ margin: 1rem;
 }
 
 .App-header {
-
+  background-size: cover;
   background-color: #282c34;
-  min-height: 100vh;
+
   text-align: center;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: black;
+
+
 }
 
 .Button{
