@@ -28,7 +28,7 @@ function Prints() {
         </Row>
         <Row>
           <Col md>
-          <img src={carrion} remwidth={256} height={556} className="image" alt=""/>
+          <img src={carrion} remwidth={256} height={456} className="image" alt=""/>
           </Col>
           <Col md>
            <img src={hooded} remwidth={256} height={456} className="image" alt=""/>
