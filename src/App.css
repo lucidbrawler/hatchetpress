@@ -35,7 +35,28 @@ image-orientation: from-image;
 
 }
 
+.containersm{
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 30px 30px 30px 30px;
+  background: teal;
+  max-width:   40rem;
+  max-height: 100%;
 
+
+}
+
+.ReactPlayer{
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  border-style: solid;
+  border-radius: 30px 30px 30px 30px;
+  border-spacing: inherit;
+
+  padding: 1rem;
+
+}
 .Card {
   padding: 1rem;
   margin: 1rem;
@@ -52,6 +73,7 @@ image-orientation: from-image;
 
 .App {
   background-color: #282c34;
+  background-size: cover;
 
 }
 
@@ -64,13 +86,15 @@ image-orientation: from-image;
   border-style: solid;
   text-align: left;
   padding: 10px;
-
+  color: tomato;
 }
 
 .nav{
   max-height: 3rem;
 }
-
+.link{
+  color: gray;
+}
 
 .App-logo {
   border: solid;
@@ -96,14 +120,14 @@ image-orientation: from-image;
 }
 
 .App-header {
-  background-size: cover;
+  background-size: fill;
   background-color: #282c34;
 
   text-align: center;
   align-items: center;
   font-size: calc(10px + 2vmin);
   color: black;
-
+  padding-bottom: 20px;
 
 }
 

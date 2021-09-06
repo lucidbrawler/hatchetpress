@@ -7,6 +7,8 @@ import Prints from './prints';
 import {HashRouter as Router,  Route } from 'react-router-dom';
 import image from './components/images/CCM COVER.JPG'
 
+import Movieplayer from './movieplayer';
+
 
 
 
@@ -17,6 +19,7 @@ function App() {
     <Bar />
     <Route path="/" exact component={Home}/>
     <Route path="/prints" component={Prints}/>
+    <Route path="/movieplayer" component={Movieplayer}/>
     </div>
     </Router>
   );

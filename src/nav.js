@@ -20,7 +20,7 @@ function Bar() {
           <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Quests</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">The Vibe</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something to do</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to={"./movieplayer"}>Lost Hymns</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
           </NavDropdown>
