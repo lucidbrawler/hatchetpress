@@ -2,7 +2,7 @@
   "name": "sweets-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lucidbrawler.github.io/hatchetpress",
+  "homepage": "https://hatchetpress.net",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -13,6 +13,7 @@
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-player": "^2.9.0",
+    "react-reader": "^0.20.4",
     "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
