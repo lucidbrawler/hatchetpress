@@ -18,7 +18,7 @@ function Movies() {
           <Container style={{ justifyContent:'center'}} className="containersm" maxWidth="sm">
             <ReactPlayer className="ReactPlayer"
             url="https://www.youtube.com/watch?v=TSvSI6RCloY"
-            muted={true}
+            muted={false}
             playing={false}
             />
           </Container>
