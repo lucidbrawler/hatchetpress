@@ -1,13 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Button, Alert, Breadcrumb, Container, Row, Col, Card, Form, Navbar, Image  } from 'react-bootstrap'
+import { Button, Container, Card } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Bar from './nav';
 import Prints from './prints';
-import {HashRouter as Router, Switch, Route } from 'react-router-dom';
+import {HashRouter as Router,  Route } from 'react-router-dom';
 import image from './components/images/CCM COVER.JPG'
-import { Grid } from '@material-ui/core'
-import steg from './components/images/ster reg.jpg'
+import Movieplayer from './movieplayer';
+
 
 
 function App() {
@@ -17,6 +17,8 @@ function App() {
     <Bar />
     <Route path="/" exact component={Home}/>
     <Route path="/prints" component={Prints}/>
+    <Route path="/movieplayer" component={Movieplayer}/>
+
     </div>
     </Router>
   );
@@ -25,9 +27,9 @@ function App() {
 const Home = () =>(
   <div style={{ display:'flex', justifyContent:'center'}}>
   <header className="App-header">
-  <Container className="containers">
+  <Container fluid className="containers">
   <Card className="Card" >
-  <img src={image} remwidth={356} remheight={556} className="image" />
+  <Card.Img className="Card_image" src={image}   />
   <Card.Body >
     <Card.Title>
       By Kenneth Sinclair
@@ -46,7 +48,7 @@ const Home = () =>(
   </Card.Body>
   </Card>
   </Container>
-  <Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary">Print Shop</Button>
+
 </header>
   </div>
 );

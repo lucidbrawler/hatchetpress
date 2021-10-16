@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Link } from "react-router-dom";
 import {Navbar,Nav,NavDropdown,Container } from 'react-bootstrap';
@@ -18,9 +18,7 @@ function Bar() {
           <Nav.Link as={Link} to={"./"}>Home</Nav.Link>
           <Nav.Link as={Link} to={"./prints"}>Prints</Nav.Link>
           <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Quests</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">The Vibe</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.3">Something to do</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to={"./movieplayer"}>Lost Hymns</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
           </NavDropdown>

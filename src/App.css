@@ -11,62 +11,90 @@
 
 
 .image{
+background-color: teal;
 border: solid;
-margin: 1rem;
+margin-bottom: 10px;
+margin-top: 10px;
+max-width: 100%;
+object-fit: scale-down;
+padding-top: 0;
+max-height: 100%;
+image-orientation: from-image;
 
 
 }
 
-.navfont{
-  color: red;
-}
 
-.navlinks{
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-
-}
 
 .containers{
-  padding: 2rem;
-  margin: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   background: teal;
-
-
-}
-.grid {
+  object-fit: fill;
 
 }
 
+.containersm{
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 30px 30px 30px 30px;
+  background: teal;
+  max-width:   40rem;
+  max-height: 100%;
+
+
+}
+
+.ReactPlayer{
+  justify-content: center;
+  max-width: 100%;
+  max-height: 100%;
+  border-style: solid;
+  border-radius: 30px 30px 30px 30px;
+  border-spacing: inherit;
+
+  padding: 1rem;
+
+}
 .Card {
+  padding: 1rem;
   margin: 1rem;
   max-width: 26rem;
+  object-fit: fill;
+}
+
+.Card_image{
+  border: solid;
+  padding: 1rem;
+  max-width: 100%;
+  object-fit: fill;
 }
 
 .App {
   background-color: #282c34;
+  background-size: cover;
 
 }
 
 
 .Paragraph {
   background-color: #282c34;
-  margin: 10px;
-  border-radius: 30px 5px 30px 5px;
+  margin: 0px;
+  border-radius: 30px 30px 30px 30px;
   border: skyblue;
   border-style: solid;
   text-align: left;
-  padding: 1rem;
-
+  padding: 10px;
+  color: tomato;
 }
 
 .nav{
   max-height: 3rem;
 }
-
+.link{
+  color: gray;
+}
 
 .App-logo {
   border: solid;
@@ -92,24 +120,28 @@ margin: 1rem;
 }
 
 .App-header {
-
+  background-size: fill;
   background-color: #282c34;
-  min-height: 100vh;
+
   text-align: center;
   align-items: center;
-
-
-
-
-
-  font-size: calc(6px + 2vmin);
+  font-size: calc(10px + 2vmin);
   color: black;
+  padding-bottom: 20px;
+
+}
+
+.Button{
+  background-color: gray;
+
+
+
 }
 
 .title{
   margin:6px;
   font-size: calc(15px + 2vmin);
-  color: black;
+  color: aqua;
 }
 
 @keyframes App-logo-spin {
