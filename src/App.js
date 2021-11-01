@@ -1,12 +1,13 @@
 
 import './App.css';
-import { Button, Container, Card } from 'react-bootstrap'
-import 'bootstrap/dist/css/bootstrap.min.css'
+import { Button, Container, Card } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Bar from './nav';
 import Prints from './prints';
 import {HashRouter as Router,  Route } from 'react-router-dom';
 import image from './components/images/CCM COVER.JPG'
 import Movieplayer from './movieplayer';
+import Reader from './reader';
 
 
 
@@ -18,6 +19,7 @@ function App() {
     <Route path="/" exact component={Home}/>
     <Route path="/prints" component={Prints}/>
     <Route path="/movieplayer" component={Movieplayer}/>
+    <Route path="/reader" component={Reader}/>
 
     </div>
     </Router>

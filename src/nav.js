@@ -19,6 +19,7 @@ function Bar() {
           <Nav.Link as={Link} to={"./prints"}>Prints</Nav.Link>
           <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item as={Link} to={"./movieplayer"}>Lost Hymns</NavDropdown.Item>
+            <NavDropdown.Item as={Link} to={"./reader"}>E-Publications</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
           </NavDropdown>

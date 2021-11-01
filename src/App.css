@@ -1,4 +1,9 @@
-
+.ereadersize{
+  color: tomato;
+}
+.ereaderpage{
+  color: teal;
+}
 
 
 .circle{
@@ -8,7 +13,17 @@
   height: 6rem;
   border-radius: 5rem 5rem 5rem 5rem;
 }
+.slideri {
+  max-height: 100%;
+  object-fit: contain;
+  object-position: center;
 
+}
+
+.carousel{
+  controls: red;
+
+}
 
 .image{
 background-color: teal;
@@ -30,18 +45,22 @@ image-orientation: from-image;
   padding: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  border-radius: 30px;
+  max-height: 100%;
   background: teal;
   object-fit: fill;
 
 }
 
 .containersm{
-  padding: 1rem;
+  padding: rem;
   margin-top: 1rem;
-  border-radius: 30px 30px 30px 30px;
+  border-radius: ;
   background: teal;
   max-width:   40rem;
   max-height: 100%;
+  background: linear-gradient(65deg,orange, red, teal);
+  max-width: 20rem;
 
 
 }
@@ -50,8 +69,8 @@ image-orientation: from-image;
   justify-content: center;
   max-width: 100%;
   max-height: 100%;
-  border-style: solid;
-  border-radius: 30px 30px 30px 30px;
+  border-style: none;
+  border-radius: ;
   border-spacing: inherit;
 
   padding: 1rem;
@@ -61,7 +80,7 @@ image-orientation: from-image;
   padding: 1rem;
   margin: 1rem;
   max-width: 26rem;
-  object-fit: fill;
+  max-height: 80%;
 }
 
 .Card_image{
@@ -72,8 +91,8 @@ image-orientation: from-image;
 }
 
 .App {
-  background-color: #282c34;
-  background-size: cover;
+  background-image: url(components/images/bookwall.jpg);
+  background-size: fill;
 
 }
 
@@ -87,10 +106,12 @@ image-orientation: from-image;
   text-align: left;
   padding: 10px;
   color: tomato;
+  object-position: fixed;
 }
 
 .nav{
-  max-height: 3rem;
+  background: linear-gradient(45deg,#4DCCC6, #B0F3F1, #8B4513);
+
 }
 .link{
   color: gray;
@@ -120,8 +141,8 @@ image-orientation: from-image;
 }
 
 .App-header {
-  background-size: fill;
-  background-color: #282c34;
+
+  background-color:;
 
   text-align: center;
   align-items: center;

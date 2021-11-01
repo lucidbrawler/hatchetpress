@@ -52,12 +52,6 @@ function Prints() {
         </Row>
 
           <Button  href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Print Shop</Button>
-        <Row>
-          <a className="App-link" href="./" target="_blank" rel="noopener noreferrer"
-        >
-          Back Home
-        </a>
-        </Row>
         </Container>
       </header>
     </div>
