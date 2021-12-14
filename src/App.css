@@ -42,6 +42,7 @@ image-orientation: from-image;
 
 
 .containers{
+
   padding: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -77,6 +78,7 @@ image-orientation: from-image;
 
 }
 .Card {
+
   padding: 1rem;
   margin: 1rem;
   max-width: 26rem;
@@ -91,9 +93,7 @@ image-orientation: from-image;
 }
 
 .App {
-  background-image: url(components/images/autmn.jpg);
-  background-size: 23%;
-
+  background-color: #0f0f0f;
 }
 
 
