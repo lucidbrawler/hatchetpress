@@ -87,12 +87,12 @@ image-orientation: from-image;
   border: solid;
   padding: 1rem;
   max-width: 100%;
-  object-fit: fill;
+  object-fit: fit;
 }
 
 .App {
-  background-image: url(components/images/bookwall.jpg);
-  background-size: fill;
+  background-image: url(components/images/autmn.jpg);
+  background-size: 23%;
 
 }
 
@@ -118,6 +118,7 @@ image-orientation: from-image;
 }
 
 .App-logo {
+
   border: solid;
   border-color: teal;
   align-items: left;
