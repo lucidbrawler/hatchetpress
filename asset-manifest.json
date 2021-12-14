@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.7cfb8f32.chunk.css",
-    "main.js": "/static/js/main.7edf2e02.chunk.js",
-    "main.js.map": "/static/js/main.7edf2e02.chunk.js.map",
+    "main.css": "/static/css/main.108796fb.chunk.css",
+    "main.js": "/static/js/main.3281a765.chunk.js",
+    "main.js.map": "/static/js/main.3281a765.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.90b569f7.js",
     "runtime-main.js.map": "/static/js/runtime-main.90b569f7.js.map",
     "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.788375e8.chunk.js": "/static/js/2.788375e8.chunk.js",
-    "static/js/2.788375e8.chunk.js.map": "/static/js/2.788375e8.chunk.js.map",
+    "static/js/2.3fbba45c.chunk.js": "/static/js/2.3fbba45c.chunk.js",
+    "static/js/2.3fbba45c.chunk.js.map": "/static/js/2.3fbba45c.chunk.js.map",
     "static/js/3.11675fd2.chunk.js": "/static/js/3.11675fd2.chunk.js",
     "static/js/3.11675fd2.chunk.js.map": "/static/js/3.11675fd2.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.7cfb8f32.chunk.css.map": "/static/css/main.7cfb8f32.chunk.css.map",
-    "static/js/2.788375e8.chunk.js.LICENSE.txt": "/static/js/2.788375e8.chunk.js.LICENSE.txt",
+    "static/css/main.108796fb.chunk.css.map": "/static/css/main.108796fb.chunk.css.map",
+    "static/js/2.3fbba45c.chunk.js.LICENSE.txt": "/static/js/2.3fbba45c.chunk.js.LICENSE.txt",
     "static/media/0220160146.e7b8c2e8.jpg": "/static/media/0220160146.e7b8c2e8.jpg",
     "static/media/Attritioni Ascending.8cc81f00.jpg": "/static/media/Attritioni Ascending.8cc81f00.jpg",
     "static/media/CCM COVER.6e7972b6.JPG": "/static/media/CCM COVER.6e7972b6.JPG",
     "static/media/Carrion 2.9b98f096.jpg": "/static/media/Carrion 2.9b98f096.jpg",
     "static/media/Lying Cat CP.b7f4701f.jpg": "/static/media/Lying Cat CP.b7f4701f.jpg",
-    "static/media/App.css": "/static/media/autmn.077c2d38.jpg",
     "static/media/lizard desert cp.8a30a261.jpg": "/static/media/lizard desert cp.8a30a261.jpg",
     "static/media/ster reg.89c2f863.jpg": "/static/media/ster reg.89c2f863.jpg",
     "static/media/three bulls.dd5eaf7a.jpg": "/static/media/three bulls.dd5eaf7a.jpg",
@@ -28,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.90b569f7.js",
     "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.788375e8.chunk.js",
-    "static/css/main.7cfb8f32.chunk.css",
-    "static/js/main.7edf2e02.chunk.js"
+    "static/js/2.3fbba45c.chunk.js",
+    "static/css/main.108796fb.chunk.css",
+    "static/js/main.3281a765.chunk.js"
   ]
 }
