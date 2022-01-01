@@ -15,7 +15,14 @@ import liz from './components/images/lizard desert cp.jpg'
 function Prints() {
   return (
     <div className="App">
-
+    <p className="Paragraph">
+          A Mortician, Harold, becomes the unexpected owner to a
+      key he believes came to him for a purpose. After seeing
+      a ghost at his most recent funeral, Andrew, he is swept
+      up in the belief that the key and boy are signs to his fate.
+      While Harold struggles to find purpose in this life, Andrew
+      searches for purpose in the afterlife.
+    </p>
       <header className="App-header">
         <Container fluid>
         <Row>

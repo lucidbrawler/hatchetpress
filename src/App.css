@@ -22,7 +22,6 @@
 
 .carousel{
   controls: red;
-
 }
 
 .image{
@@ -35,35 +34,29 @@ object-fit: scale-down;
 padding-top: 0;
 max-height: 100%;
 image-orientation: from-image;
-
-
 }
 
 
 
 .containers{
-
   padding: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 30px;
-  max-height: 100%;
   background: teal;
-  object-fit: fill;
+
 
 }
 
 .containersm{
   padding: rem;
   margin-top: 1rem;
-  border-radius: ;
+  border-radius: 15px;
   background: teal;
   max-width:   40rem;
   max-height: 100%;
   background: linear-gradient(65deg,orange, red, teal);
   max-width: 20rem;
-
-
 }
 
 .ReactPlayer{
@@ -73,29 +66,83 @@ image-orientation: from-image;
   border-style: none;
   border-radius: ;
   border-spacing: inherit;
-
   padding: 1rem;
-
 }
-.Card {
 
+.Card {
   padding: 1rem;
   margin: 1rem;
-  max-width: 26rem;
+  max-width: 36rem;
   max-height: 80%;
 }
 
 .Card_image{
   border: solid;
   padding: 1rem;
-  max-width: 100%;
-  object-fit: fit;
+
+
 }
 
 .App {
   background-color: #0f0f0f;
+  text-align: center;
+  justify-content: center;
+}
+.Paragraph5 {
+  background-color: #282c34;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 30px 30px 30px 30px;
+  border: skyblue;
+  border-style: solid;
+  text-align: center;
+  padding: 10px;
+  color: tomato;
+  object-position: fixed;
+
+
+}
+.Paragraph4 {
+  background-color: #282c34;
+  margin-top: 20px;
+  border-radius: 30px 30px 30px 30px;
+  border: skyblue;
+  border-style: solid;
+  text-align: left;
+  padding: 10px;
+  color: tomato;
+  max-width: 40rem;
+  max-height: 80%;
+
 }
 
+.Paragraph3 {
+  background-color: #282c34;
+  margin: 0px;
+  border-radius: 30px 30px 30px 30px;
+  border: skyblue;
+  border-style: solid;
+  text-align: left;
+  padding: 10px;
+  color: orange;
+  object-position: fixed;
+}
+
+.Paragraph2 {
+  background-color: #282c34;
+  margin: 0px;
+  border-radius: 30px 30px 30px 30px;
+  border: skyblue;
+  border-style: solid;
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  color: tomato;
+  max-width: 40rem;
+  object-position: fixed;
+
+}
 
 .Paragraph {
   background-color: #282c34;
@@ -106,7 +153,7 @@ image-orientation: from-image;
   text-align: left;
   padding: 10px;
   color: tomato;
-  object-position: fixed;
+  max-width: 36rem;
 }
 
 .nav{
@@ -153,9 +200,8 @@ image-orientation: from-image;
 
 }
 
-.Button{
-  background-color: gray;
-
+.button{
+  margin: 20px;
 
 
 }
@@ -173,4 +219,122 @@ image-orientation: from-image;
   to {
     transform: rotate(0deg);
   }
+}
+.Appf {
+  background-color: #282c34;
+  margin: 15px;
+  border-radius: 30px 30px 30px 30px;
+  border: skyblue;
+  border-style: solid;
+  text-align: center;
+  padding: 10px;
+  color: tomato;
+  justify-content: center;
+
+}
+
+
+.c-player {
+    min-width: 17rem;
+    max-height: 35rem;
+    max-width: 17rem;
+    display: block;
+    background-color: #0e3256;
+    display: center;
+    margin: 0px auto;
+    padding: 5px;
+    border-radius: 16px;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.c-player > h4 {
+    color: #FFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+.c-player > p {
+    color: teal;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.c-player > p span {
+    font-weight: 400;
+}
+
+.c-player--details .details-img {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.c-player--details .details-img img {
+    display: block;
+    margin: 50px auto;
+    width: 100%;
+    max-width: 250px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8), -6px -6px 12px rgba(255, 255, 255, 0.4);
+}
+
+.c-player--details .details-img:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    right: -25px;
+    bottom: -25px;
+    border-radius: 50%;
+    border: px dashed rgba(200, 206, 0, 1);
+}
+
+.c-player--details .details-title {
+    color: #EEE;
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.c-player--details .details-artist {
+    color: #AAA;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.8), -1px -1px 1px rgba(255,255,255,0.4);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.c-player--controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.c-player--controls .play-btn {
+    display: flex;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8), -1px -1px 1px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+    border: none;
+    outline: none;
+    background-color: black;
+    color: teal;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.c-player--controls .skip-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #888;
+    font-size: 18px;
 }

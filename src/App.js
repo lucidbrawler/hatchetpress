@@ -8,7 +8,8 @@ import {HashRouter as Router,  Route } from 'react-router-dom';
 import image from './components/images/CCM COVER.JPG'
 import Movieplayer from './movieplayer';
 import Reader from './reader';
-
+import Losthymns from './losthymns';
+import threebulls from './components/images/CoffinsCasketsandmourn.gif'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Route path="/prints" component={Prints}/>
     <Route path="/movieplayer" component={Movieplayer}/>
     <Route path="/reader" component={Reader}/>
+    <Route path="/losthymns" component={Losthymns}/>
 
     </div>
     </Router>
@@ -27,9 +29,19 @@ function App() {
 }
 
 const Home = () =>(
+
   <div style={{ display:'flex', justifyContent:'center'}}>
+
   <header className="App-header">
-  <Container fluid className="containers">
+  <p className="Paragraph4">
+        A Mortician, Harold, becomes the unexpected owner to a
+    key he believes came to him for a purpose. After seeing
+    a ghost at his most recent funeral, Andrew, he is swept
+    up in the belief that the key and boy are signs to his fate.
+    While Harold struggles to find purpose in this life, Andrew
+    searches for purpose in the afterlife.
+  </p>
+  <Container className="containers">
   <Card className="Card" >
   <Card.Img className="Card_image" src={image}   />
   <Card.Body >
@@ -45,8 +57,13 @@ const Home = () =>(
         While Harold struggles to find purpose in this life, Andrew
         searches for purpose in the afterlife.
       </p>
+      <img src={threebulls} remwidth={256} height={256} className="image" alt=""/>
+      <p className="Paragraph3">
+            Read more! A Sample Chapter is available on Issue, or go straight to the store and buy it now!
+      </p>
       </Card.Text>
-    <Button href="https://www.lulu.com/en/us/shop/kenneth-sinclair/coffins-caskets-and-mourn/paperback/product-1zk2krjq.html?page=1&pageSize=4" variant="primary">Read More</Button>
+    <Button className="button" href="https://issuu.com/hatchetpress/docs/ccm_2_issu_sample_chapter..docx" variant="primary">Read More</Button>
+    <Button className="button" href="https://www.lulu.com/en/us/shop/kenneth-sinclair/coffins-caskets-and-mourn/paperback/product-1zk2krjq.html?page=1&pageSize=4" variant="primary">Buy Now</Button>
   </Card.Body>
   </Card>
   </Container>
