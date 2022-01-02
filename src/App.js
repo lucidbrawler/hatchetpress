@@ -6,7 +6,6 @@ import Bar from './nav';
 import Prints from './prints';
 import {HashRouter as Router,  Route } from 'react-router-dom';
 import image from './components/images/CCM COVER.JPG'
-import Movieplayer from './movieplayer';
 import Reader from './reader';
 import Losthymns from './losthymns';
 import threebulls from './components/images/CoffinsCasketsandmourn.gif'
@@ -19,7 +18,6 @@ function App() {
     <Bar />
     <Route path="/" exact component={Home}/>
     <Route path="/prints" component={Prints}/>
-    <Route path="/movieplayer" component={Movieplayer}/>
     <Route path="/reader" component={Reader}/>
     <Route path="/losthymns" component={Losthymns}/>
 
@@ -34,12 +32,10 @@ const Home = () =>(
 
   <header className="App-header">
   <p className="Paragraph4">
-        A Mortician, Harold, becomes the unexpected owner to a
-    key he believes came to him for a purpose. After seeing
-    a ghost at his most recent funeral, Andrew, he is swept
-    up in the belief that the key and boy are signs to his fate.
-    While Harold struggles to find purpose in this life, Andrew
-    searches for purpose in the afterlife.
+        Hatchet Press is a platform I created.
+        I use it to self-publish and host my art and
+        music here aswell. I am a printmaker and use linolem
+        and woodcut block prints. I accept commision work hatchetpressmail@yahoo.com. Coffin's Caskets and Mourn is my first Novel.
   </p>
   <Container className="containers">
   <Card className="Card" >

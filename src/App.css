@@ -4,8 +4,6 @@
 .ereaderpage{
   color: teal;
 }
-
-
 .circle{
   border: solid;
   border-color: teal;
@@ -13,12 +11,7 @@
   height: 6rem;
   border-radius: 5rem 5rem 5rem 5rem;
 }
-.slideri {
-  max-height: 100%;
-  object-fit: contain;
-  object-position: center;
 
-}
 
 .carousel{
   controls: red;
@@ -88,6 +81,22 @@ image-orientation: from-image;
   text-align: center;
   justify-content: center;
 }
+
+.Paragraph6 {
+  font-size: calc(3px + 2vmin);
+  background-color: #282c34;
+  margin: 0px;
+  border-radius: 30px 30px 30px 30px;
+  border: skyblue;
+  border-style: solid;
+  text-align: left;
+  padding: 10px;
+  color: tomato;
+  max-width: 11rem;
+}
+
+
+
 .Paragraph5 {
   background-color: #282c34;
   margin-top: 15px;

@@ -54,9 +54,8 @@ function App() {
         <Row className="">
           <Col className="">
             <p className="Paragraph5">This is a player for all my old albums
-              I have on reverbnation! Please enjoy these free tracks that arnt
-              on the spotify machine. Not in the algorythm.</p>
-
+              I have on reverbnation. I started playing music whenn I was 15 years old, in Bradenton FL, I had a band called "The Wasted". Ever since we stopped playing I have always kept
+              an avid intrest in creating new songs as Lost Hymns. All these songs are being made available for download at reverbnation.</p>
           </Col>
         </Row>
         <Row>

@@ -10,51 +10,69 @@ import carrion from './components/images/Carrion 2.jpg'
 import onebull from './components/images/0220160146.jpg'
 import threebulls from './components/images/three bulls.jpg'
 import liz from './components/images/lizard desert cp.jpg'
+import { SRLWrapper } from "simple-react-lightbox";
+
+
+
+const options = {
+  buttons: {
+  showDownloadButton: false,
+  },
+};
+
+
+
+
 
 
 function Prints() {
   return (
+    <SRLWrapper options={options}>
     <div className="App">
-    <p className="Paragraph">
-          A Mortician, Harold, becomes the unexpected owner to a
-      key he believes came to him for a purpose. After seeing
-      a ghost at his most recent funeral, Andrew, he is swept
-      up in the belief that the key and boy are signs to his fate.
-      While Harold struggles to find purpose in this life, Andrew
-      searches for purpose in the afterlife.
+    <p className="Paragraph6">
+          Etsy Link at Bottom!
     </p>
+
       <header className="App-header">
         <Container fluid>
         <Row>
-          <Col md>
+          <Col className="Col" md>
            <img src={tritop} remwidth={556} height={356} className="image" alt=""/>
+
           </Col>
           <Col md>
            <img src={liz} remwidth={256} height={256} className="image" alt="" />
+
           </Col>
         </Row>
         <Row>
           <Col md>
           <img src={carrion} remwidth={256} height={456} className="image" alt=""/>
+
           </Col>
           <Col md>
            <img src={hooded} remwidth={256} height={456} className="image" alt=""/>
+
           </Col>
         </Row>
         <Row>
           <Col md>
            <img src={lying} remwidth={256} height={256} className="image" alt=""/>
+
           </Col>
           <Col md>
           <img src={steg} remwidth={256} height={256} className="image" alt=""/>
+
           </Col>
         </Row>
         <Row>
           <Col md>
            <img src={onebull} remwidth={256} height={356} className="image" alt=""/>
+
           </Col>
           <Col md>
           <img src={threebulls} remwidth={256} height={256} className="image" alt=""/>
+
           </Col>
         </Row>
 
@@ -62,6 +80,8 @@ function Prints() {
         </Container>
       </header>
     </div>
+    </SRLWrapper>
+
   );
 }
 
