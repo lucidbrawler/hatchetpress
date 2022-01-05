@@ -31,6 +31,42 @@ function App() {
       artist: "Lost Hymns",
       img_src: "./images/LostHymns.jpg",
       src: "./music/losthymns_the-edge-of-a-blade.mp3"
+    },
+    {
+      title: "Toy Soldiers and Guns",
+      artist: "The Wasted",
+      img_src: "./images/LostHymns.jpg",
+      src: "./The Wasted/Track-1.mp3"
+    },
+    {
+      title: "Crimson December",
+      artist: "The Wasted",
+      img_src: "./images/LostHymns.jpg",
+      src: "./The Wasted/Track-2.mp3"
+    },
+    {
+      title: "Bones",
+      artist: "The Wasted",
+      img_src: "./images/LostHymns.jpg",
+      src: "./The Wasted/Track-3.mp3"
+    },
+    {
+      title: "Gravestone-Dreams",
+      artist: "The Wasted",
+      img_src: "./images/LostHymns.jpg",
+      src: "./The Wasted/Track-4.mp3"
+    },
+    {
+      title: "Doctor",
+      artist: "The Wasted",
+      img_src: "./images/LostHymns.jpg",
+      src: "./The Wasted/Track-5.mp3"
+    },
+    {
+      title: "Pints",
+      artist: "The Wasted",
+      img_src: "./images/LostHymns.jpg",
+      src: "./The Wasted/Track-6.mp3"
     }
   ]);
 
