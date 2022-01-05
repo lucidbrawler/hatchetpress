@@ -48,13 +48,13 @@ function App() {
       title: "Bones",
       artist: "The Wasted",
       img_src: "./images/LostHymns.jpg",
-      src: "./The Wasted/Track-3.mp3"
+      src: "./The Wasted/Track 3.mp3"
     },
     {
       title: "Gravestone-Dreams",
       artist: "The Wasted",
       img_src: "./images/LostHymns.jpg",
-      src: "./The Wasted/Track-4.mp3"
+      src: "./The Wasted/Track 4.mp3"
     },
     {
       title: "Doctor",
@@ -90,7 +90,7 @@ function App() {
         <Row className="">
           <Col className="">
             <p className="Paragraph5">This is a player for all my old albums
-              I have on reverbnation. I started playing music whenn I was 15 years old, in Bradenton FL, I had a band called "The Wasted". Ever since we stopped playing I have always kept
+              I have on reverbnation. I started playing music when I was 15 years old, in Bradenton FL, I had a band called "The Wasted". Ever since we stopped playing I have always kept
               an avid intrest in creating new songs as Lost Hymns. All these songs are being made available for download at reverbnation.</p>
           </Col>
         </Row>
