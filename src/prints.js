@@ -10,6 +10,8 @@ import carrion from './components/images/Carrion 2.jpg'
 import onebull from './components/images/0220160146.jpg'
 import threebulls from './components/images/three bulls.jpg'
 import liz from './components/images/lizard desert cp.jpg'
+import bombpopheart from './components/images/bombpopheart.jpg'
+import autmn from './components/images/autmn.jpg'
 import { SRLWrapper } from "simple-react-lightbox";
 
 
@@ -61,17 +63,27 @@ function Prints() {
 
           </Col>
           <Col md>
-          <img src={steg} remwidth={256} height={256} className="image" alt=""/>
+          <img src={steg} remwidth={456} height={260} className="image" alt=""/>
 
           </Col>
         </Row>
         <Row>
           <Col md>
-           <img src={onebull} remwidth={256} height={356} className="image" alt=""/>
+           <img src={onebull} remwidth={256} height={456} className="image" alt=""/>
 
           </Col>
           <Col md>
           <img src={threebulls} remwidth={256} height={256} className="image" alt=""/>
+
+          </Col>
+        </Row>
+        <Row>
+          <Col md>
+           <img src={autmn} remwidth={256} height={456} className="image" alt=""/>
+
+          </Col>
+          <Col md>
+          <img src={bombpopheart} remwidth={256} height={456} className="image" alt=""/>
 
           </Col>
         </Row>

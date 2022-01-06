@@ -244,20 +244,42 @@ image-orientation: from-image;
 
 
 .c-player {
+    min.height: 27.5rem;
     min-width: 17rem;
-    max-height: 35rem;
+    max-height: 27.5rem;
     max-width: 17rem;
     display: block;
-    background-color: #0e3256;
+    background-color: tomato;
     display: center;
-    margin: 0px auto;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 16px;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+}
+.c-player2 {
+    min.height: 27.5rem;
+    min-width: 17rem;
+    max-height: 27.5rem;
+    max-width: 17rem;
+    display: block;
+    background-color: teal;
+    display: center;
+    margin: 10px auto;
     padding: 5px;
     border-radius: 16px;
     box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
 
 .c-player > h4 {
-    color: #FFF;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+}
+
+.c-player2 > h4 {
+    color: black;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
@@ -265,7 +287,13 @@ image-orientation: from-image;
 }
 
 .c-player > p {
-    color: teal;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+}
+.c-player2 > p {
+    color: black;
     font-size: 14px;
     text-align: center;
     font-weight: 600;
@@ -275,10 +303,14 @@ image-orientation: from-image;
     font-weight: 400;
 }
 
+.c-player2 > p span {
+    font-weight: 400;
+}
+
 .c-player--details .details-img {
     position: relative;
     width: fit-content;
-    margin: 0 auto;
+    margin:  auto;
 }
 
 .c-player--details .details-img img {
@@ -303,9 +335,9 @@ image-orientation: from-image;
 }
 
 .c-player--details .details-title {
-    color: #EEE;
-    font-size: 28px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+    color: black;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8), -1px -1px 2px rgba(255,255,255,0.4);
     text-align: center;
     margin-bottom: 10px;
 }

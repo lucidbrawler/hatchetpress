@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import Player from './components/Player/Player';
+import Player2 from './components/Player2/Player2';
 import './App.css';
 import React from 'react';
 import Container from'@material-ui/core/Container';
@@ -7,6 +8,8 @@ import ReactPlayer from 'react-player';
 import { Row, Col } from 'react-bootstrap'
 
 function App() {
+
+
   const [songs] = useState([
     {
       title: "Of Conviction",
@@ -33,11 +36,40 @@ function App() {
       src: "./music/losthymns_the-edge-of-a-blade.mp3"
     },
     {
+      title: "I'm Calling on the Devil",
+      artist: "Lost Hymns",
+      img_src: "./images/LostHymns.jpg",
+      src: "./music/losthymns_i-m-calling-on-the-devil.mp3"
+    },
+    {
+      title: "The Blood on my Teeth",
+      artist: "Lost Hymns",
+      img_src: "./images/LostHymns.jpg",
+      src: "./music/losthymns_the-blood-on-my-teeth.mp3"
+    },
+    {
+      title: "Gravedigger",
+      artist: "Lost Hymns",
+      img_src: "./images/LostHymns.jpg",
+      src: "./music/losthymns_grave-digger.mp3"
+    },
+    {
+      title: "You Were Always Going to Die",
+      artist: "Lost Hymns",
+      img_src: "./images/LostHymns.jpg",
+      src: "./music/losthymns_you-were-always-going-to-die.mp3"
+    }
+
+  ]);
+
+const [verse] = useState([
+    {
       title: "Toy Soldiers and Guns",
       artist: "The Wasted",
       img_src: "./images/LostHymns.jpg",
       src: "./The Wasted/Track-1.mp3"
     },
+
     {
       title: "Crimson December",
       artist: "The Wasted",
@@ -72,6 +104,8 @@ function App() {
 
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
   const [nextSongIndex, setNextSongIndex] = useState(0);
+  const [currentSongIndex2, setCurrentSongIndex2] = useState(0);
+  const [nextSongIndex2, setNextSongIndex2] = useState(0);
 
   useEffect(() => {
     setNextSongIndex(() => {
@@ -82,6 +116,18 @@ function App() {
       }
     });
   }, [currentSongIndex]);
+
+  useEffect(() => {
+    setNextSongIndex2(() => {
+      if (currentSongIndex2 + 1 > verse.length - 1) {
+        return 0;
+      } else {
+        return currentSongIndex2 + 1;
+      }
+    });
+  }, [currentSongIndex2]);
+
+
 
   return (
     <div style={{ display:'', justifyContent:'center'}} className="">
@@ -94,7 +140,7 @@ function App() {
               an avid intrest in creating new songs as Lost Hymns. All these songs are being made available for download at reverbnation.</p>
           </Col>
         </Row>
-        <Row>
+        <Row >
           <Col>
             <Player
               currentSongIndex={currentSongIndex}
@@ -102,6 +148,14 @@ function App() {
               nextSongIndex={nextSongIndex}
               songs={songs}
               />
+            </Col>
+            <Col>
+              <Player2
+                currentSongIndex={currentSongIndex2}
+                setCurrentSongIndex={setCurrentSongIndex2}
+                nextSongIndex={nextSongIndex2}
+                songs={verse}
+                />
           </Col>
         </Row>
         </Container>
@@ -112,6 +166,13 @@ function App() {
           url="https://www.youtube.com/watch?v=6n0-1ZuYZLg"
           muted={false}
           playing={true}
+          />
+        </Container>
+        <Container style={{ justifyContent:'center'}} className="containersm" maxWidth="sm">
+          <ReactPlayer className="ReactPlayer"
+          url="https://youtu.be/O2_vRoFPAuk"
+          muted={false}
+          playing={false}
           />
         </Container>
         <Container style={{ justifyContent:'center'}} className="containersm" maxWidth="sm">
