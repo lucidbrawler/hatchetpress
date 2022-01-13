@@ -115,7 +115,7 @@ const [verse] = useState([
         return currentSongIndex + 1;
       }
     });
-  }, [currentSongIndex]);
+  }, [currentSongIndex, songs.length]);
 
   useEffect(() => {
     setNextSongIndex2(() => {
@@ -125,7 +125,7 @@ const [verse] = useState([
         return currentSongIndex2 + 1;
       }
     });
-  }, [currentSongIndex2]);
+  }, [currentSongIndex2, verse.length]);
 
 
 
