@@ -4,10 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {HashRouter as Router} from 'react-router-dom';
+import SimpleReactLightbox from 'simple-react-lightbox'
+
 
 ReactDOM.render(
   <Router>
+  <SimpleReactLightbox>
     <App />
+  </SimpleReactLightbox>  
   </Router>,
   document.getElementById('root')
 );
