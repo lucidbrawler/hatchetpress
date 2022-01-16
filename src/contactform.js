@@ -13,7 +13,7 @@ const ContactForm = () => {
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("http://glacial-garden-61233.herokuapp.com/contact", {
+    let response = await fetch("https://glacial-garden-61233.herokuapp.com/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
@@ -44,7 +44,7 @@ const ContactForm = () => {
         <input type="email" id="email" required />
       </div>
       <div  className="">
-        <label className="Paragraph" htmlFor="message">prompts:</label>
+        <label className="Paragraph" htmlFor="message">Message:</label>
         <textarea id="message" required />
       </div>
       <button type="submit">{status}</button>
