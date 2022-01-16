@@ -8,8 +8,8 @@ import {HashRouter as Router,  Route } from 'react-router-dom';
 import image from './components/images/CCM COVER.JPG'
 import Reader from './reader';
 import Losthymns from './losthymns';
-import threebulls from './components/images/CoffinsCasketsandmourn.gif'
-
+import threebulls from './components/images/CoffinsCasketsandmourn.gif';
+import Contactform from './contactform';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
     <Route path="/prints" component={Prints}/>
     <Route path="/reader" component={Reader}/>
     <Route path="/losthymns" component={Losthymns}/>
+    <Route path="/contactform" component={Contactform}/>
 
     </div>
     </Router>
