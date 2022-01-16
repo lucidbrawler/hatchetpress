@@ -1,7 +1,7 @@
 
 import './App.css';
 import { Link } from "react-router-dom";
-import {Navbar,Nav,Container } from 'react-bootstrap';
+import {Navbar,Nav,Container,Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import steg from './components/images/ster reg.jpg'
 
@@ -18,6 +18,8 @@ function Bar() {
           <Nav.Link as={Link} to={"./"}>Home</Nav.Link>
           <Nav.Link as={Link} to={"./prints"}>Prints</Nav.Link>
           <Nav.Link as={Link} to={"./losthymns"}>Losthyms</Nav.Link>
+          <Nav.Link variant="" as={Button} href="https://spaces.chec.io/38222">Shop</Nav.Link>
+          <Nav.Link as={Link} to={"./contactform"}>Contact</Nav.Link>
           {/*<NavDropdown title="Dropdown" id="collasible-nav-dropdown">
             <NavDropdown.Item as={Link} to={"./movieplayer"}>Lost Hymns</NavDropdown.Item>
             <NavDropdown.Item as={Link} to={"./reader"}>E-Publications</NavDropdown.Item>

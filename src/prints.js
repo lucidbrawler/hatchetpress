@@ -31,10 +31,6 @@ function Prints() {
   return (
     <SRLWrapper options={options}>
     <div className="App">
-    <p className="Paragraph6">
-          Etsy Link at Bottom!
-    </p>
-
       <header className="App-header">
         <Container fluid>
         <Row>
