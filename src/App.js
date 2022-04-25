@@ -42,8 +42,7 @@ const Home = () => (
     <Container>
       <Row>
         <Col>
-          <Container>
-
+          
             <Col>
               <p className="Paragraph4">
                 <section>
@@ -78,42 +77,45 @@ const Home = () => (
                 <img className='Rimage' src={etsy7} alt='' />
               </section>
             </Col>
-          </Container>
+          
         </Col>
+        
+        
+        
         <Col>
-          <Container fluid>
+         
+            <Col>
+              <header className="App-header">
 
-            <header className="App-header">
-
-              <Container >
-                <Card className="Card" >
-                  <Card.Img className="Card_image" src={image} />
-                  <Card.Body >
-                    <Card.Title>
-                      By Kenneth Sinclair
-                    </Card.Title>
-                    <Card.Text>
-                      <p className="Paragraph">
-                        A Mortician, Harold, becomes the unexpected owner to a
-                        key he believes came to him for a purpose. After seeing
-                        a ghost at his most recent funeral, Andrew, he is swept
-                        up in the belief that the key and boy are signs to his fate.
-                        While Harold struggles to find purpose in this life, Andrew
-                        searches for purpose in the afterlife.
-                      </p>
-                      <img src={threebulls} remwidth={256} height={256} className="image" alt="" />
-                      <p className="Paragraph3">
-                        Read more! A Sample Chapter is available on Issue, or go straight to the store and buy it now!
-                      </p>
-                    </Card.Text>
-                    <Button className="button" href="https://issuu.com/hatchetpress/docs/ccm_2_issu_sample_chapter..docx" variant="primary">Read More</Button>
-                    <Button className="button" href="https://www.lulu.com/en/us/shop/kenneth-sinclair/coffins-caskets-and-mourn/paperback/product-1zk2krjq.html?page=1&pageSize=4" variant="primary">Buy Now</Button>
-                  </Card.Body>
-                </Card>
-              </Container>
-            </header>
-
-          </Container>
+             
+                  <Card className="Card" >
+                    <Card.Img className="Card_image" src={image} />
+                    <Card.Body >
+                      <Card.Title>
+                        By Kenneth Sinclair
+                      </Card.Title>
+                      <Card.Text>
+                        <p className="Paragraph">
+                          A Mortician, Harold, becomes the unexpected owner to a
+                          key he believes came to him for a purpose. After seeing
+                          a ghost at his most recent funeral, Andrew, he is swept
+                          up in the belief that the key and boy are signs to his fate.
+                          While Harold struggles to find purpose in this life, Andrew
+                          searches for purpose in the afterlife.
+                        </p>
+                        <img src={threebulls} remwidth={256} height={256} className="image" alt="" />
+                        <p className="Paragraph3">
+                          Read more! A Sample Chapter is available on Issue, or go straight to the store and buy it now!
+                        </p>
+                      </Card.Text>
+                      <Button className="button" href="https://issuu.com/hatchetpress/docs/ccm_2_issu_sample_chapter..docx" variant="primary">Read More</Button>
+                      <Button className="button" href="https://www.lulu.com/en/us/shop/kenneth-sinclair/coffins-caskets-and-mourn/paperback/product-1zk2krjq.html?page=1&pageSize=4" variant="primary">Buy Now</Button>
+                    </Card.Body>
+                  </Card>
+              
+              </header>
+            </Col>
+         
         </Col>
       </Row>
     </Container>

@@ -66,18 +66,16 @@ image-orientation: from-image;
 }
 
 .Card {
-  padding: 1rem;
+ padding: 1rem;
+  
   margin: 1rem;
   max-width: 36rem;
   max-height: 80%;
-  min-width: 15rem;
 }
 
 .Card_image{
   border: solid;
-  padding: 1rem;
-
-
+ 
 }
 
 .App {
