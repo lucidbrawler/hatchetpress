@@ -36,6 +36,7 @@ image-orientation: from-image;
 
 .containers{
   padding: 1rem;
+
   margin-top: 1rem;
   margin-bottom: 1rem;
   border-radius: 30px;
@@ -60,7 +61,6 @@ image-orientation: from-image;
   max-width: 100%;
   max-height: 100%;
   border-style: none;
-  border-radius: ;
   border-spacing: inherit;
   padding: 1rem;
 }
@@ -201,10 +201,31 @@ image-orientation: from-image;
 
   }
 }
-
+img{
+  border-radius: 5px;
+}
+section{
+  max-width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #282c34;
+  border-radius: 20px;
+  margin: 10px;
+  object-fit: scale-down;
+  color:#4DCCC6; 
+}
+.Rimage{
+ 
+border: solid;
+margin-bottom: 10px;
+margin-top: 10px;
+max-width: 100%;
+object-fit: scale-down;
+padding-top: 0;
+max-height: 100%;
+image-orientation: from-image;
+}
 .App-header {
-
-  background-color:;
   min-height: 100%;
   text-align: center;
   align-items: center;
@@ -254,11 +275,10 @@ image-orientation: from-image;
     max-height: 27.5rem;
     max-width: 17rem;
     display: block;
-    background-color: tomato;
+    background-color: grey;
     display: center;
     margin: 10px auto;
     padding: 5px;
-    border-radius: 16px;
     box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
 .c-player2 {
@@ -271,7 +291,7 @@ image-orientation: from-image;
     display: center;
     margin: 10px auto;
     padding: 5px;
-    border-radius: 16px;
+   
     box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
 }
 
@@ -336,7 +356,6 @@ image-orientation: from-image;
     right: -25px;
     bottom: -25px;
     border-radius: 50%;
-    border: ;
 }
 
 .c-player--details .details-title {

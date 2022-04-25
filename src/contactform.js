@@ -31,9 +31,7 @@ const ContactForm = () => {
     <div  style={{ display:'flex', justifyContent:'center'}} className="contact"> 
       
     <header className="App-header">
-    <p className="Paragraph3">Hatchet Press is dedicated to the pursuit of Art, because I believe it helps establish the more obliuqe lines that help define us as people. 
-        It's always been hard for me to not see Art as work. It is the work of artist who along with functionality 
-        help us move cultures foward and challenge the direction and motives of progress in a way that we can consider a worthy motive. </p> 
+    <p className="Paragraph3">Hatchet Press is currently looking for vendor events and opportunities. </p> 
     <form className="" onSubmit={handleSubmit}>
       <div  className="">
         <label className="Paragraph" htmlFor="name">Name:</label>
