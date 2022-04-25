@@ -85,7 +85,7 @@ const Home = () => (
 
             <header className="App-header">
 
-              <Container className="containers">
+              <Container >
                 <Card className="Card" >
                   <Card.Img className="Card_image" src={image} />
                   <Card.Body >
