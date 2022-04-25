@@ -85,7 +85,7 @@ const Home = () => (
 
             <header className="App-header">
 
-             
+              <Container className="containers">
                 <Card className="Card" >
                   <Card.Img className="Card_image" src={image} />
                   <Card.Body >
@@ -110,7 +110,7 @@ const Home = () => (
                     <Button className="button" href="https://www.lulu.com/en/us/shop/kenneth-sinclair/coffins-caskets-and-mourn/paperback/product-1zk2krjq.html?page=1&pageSize=4" variant="primary">Buy Now</Button>
                   </Card.Body>
                 </Card>
-             
+              </Container>
             </header>
 
           </Container>
