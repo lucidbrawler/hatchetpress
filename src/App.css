@@ -70,6 +70,7 @@ image-orientation: from-image;
   margin: 1rem;
   max-width: 36rem;
   max-height: 80%;
+  min-width: 15rem;
 }
 
 .Card_image{
