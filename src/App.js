@@ -52,7 +52,7 @@ const Home = () => (
                 </section>
                 Hatchet Press is a platform I created.
                 I use it to self-publish and host my art and
-                music here aswell. I am a printmaker and use linolem
+                music here. I am a printmaker and use linolem
                 and woodcut block prints. Coffin's Caskets and Mourn is my first Novel.
                 <br /><br /><Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
               </p>
@@ -85,7 +85,7 @@ const Home = () => (
 
             <header className="App-header">
 
-              <Container className="containers">
+             
                 <Card className="Card" >
                   <Card.Img className="Card_image" src={image} />
                   <Card.Body >
@@ -110,7 +110,7 @@ const Home = () => (
                     <Button className="button" href="https://www.lulu.com/en/us/shop/kenneth-sinclair/coffins-caskets-and-mourn/paperback/product-1zk2krjq.html?page=1&pageSize=4" variant="primary">Buy Now</Button>
                   </Card.Body>
                 </Card>
-              </Container>
+             
             </header>
 
           </Container>

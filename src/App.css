@@ -169,6 +169,9 @@ image-orientation: from-image;
   color: tomato;
   max-width: 36rem;
 }
+p{
+  min-width: 20rem;
+}
 
 .nav{
   background: linear-gradient(45deg,#4DCCC6, #B0F3F1, #8B4513);
