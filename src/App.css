@@ -4,6 +4,9 @@
 .ereaderpage{
   color: teal;
 }
+.event{
+  color:#10c6cc;
+}
 .circle{
   border: solid;
   border-color: teal;
@@ -126,6 +129,7 @@ image-orientation: from-image;
   color: tomato;
   max-width: 40rem;
   max-height: 80%;
+  font-size: x-large;
 
 }
 

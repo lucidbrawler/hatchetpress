@@ -49,10 +49,13 @@ const Home = () => (
                   <img className='Rimage' src={etsyreview} alt='' />
 
                 </section>
-                Hatchet Press is a platform I created.
-                I use it to self-publish and host my art and
-                music here. I am a printmaker and use linolem
-                and woodcut block prints. Coffin's Caskets and Mourn is my first Novel.
+                Welcome!<br/><br/> I am Kenneth Sinclair Author and Printmaker @HatchetPress
+                I use linolem and woodcut block prints. "Coffin's, Caskets, and Mourn" is my first Novel.
+                </p><p>
+                <br/><br/>
+                <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/><p> <strong className='event'>Aug 6th:</strong> <h2><a className='event' href ='https://www.instagram.com/p/CgKplDtubaL/'>Alley Way Get down!</a></h2> Live music and vendor market<br/> @ 200 S Geddes St, Syracuse, NY 13204</p><p> <strong className='event'>Aug 12th:</strong> <h2><a className='event' href='https://www.instagram.com/p/CgUbFjEu_4N/?utm_source=ig_web_copy_link'>Red Moon Market!</a></h2> at Buried Acorn Brewery <br/> @ 881 Van Rensselaer St, Syracuse, NY 13204</p></p>
+                
+                
                 <br /><br /><Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
               </p>
               <section>
