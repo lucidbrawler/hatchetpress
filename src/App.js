@@ -35,8 +35,13 @@ function App() {
     </Router>
   );
 }
-
+const event1 = "918 print making party at salt city book arts!"
+const link1 = "https://www.instagram.com/p/ChSlyQJOkAK/"
+const event2 = "A Trip To The Moon Art Market!"
+const link2 = "https://www.instagram.com/p/ChR4jhxOLAN/"
 const Home = () => (
+
+
 
   <div style={{ display: 'flex', justifyContent: 'center' }}>
     <Container>
@@ -53,7 +58,7 @@ const Home = () => (
                 I use linolem and woodcut block prints. "Coffin's, Caskets, and Mourn" is my first Novel.
                 </p><p>
                 <br/><br/>
-                <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/><p> <strong className='event'>Aug 6th:</strong> <h2><a className='event' href ='https://www.instagram.com/p/CgKplDtubaL/'>Alley Way Get down!</a></h2> Live music and vendor market<br/> @ 200 S Geddes St, Syracuse, NY 13204</p><p> <strong className='event'>Aug 12th:</strong> <h2><a className='event' href='https://www.instagram.com/p/CgUbFjEu_4N/?utm_source=ig_web_copy_link'>Red Moon Market!</a></h2> at Buried Acorn Brewery <br/> @ 881 Van Rensselaer St, Syracuse, NY 13204</p></p>
+                <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/><p> <strong className='event'>sep 16th: 2pm-6pm<br></br>sept 17th: 12pm-4pm</strong> <h2><a className='event' href ={link1}>{event1}</a></h2> Live music and vendor market<br/> @ 509 w Fayette St, Syracuse, NY</p><p> <strong className='event'>oct 8th:</strong> <h2><a className='event' href={link2}>{event2}</a></h2> 50+ Local artisan vendor's and Live Music!<br/> @ 100 college ave , Syracuse, NY</p></p>
                 
                 
                 <br /><br /><Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
