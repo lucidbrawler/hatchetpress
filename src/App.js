@@ -35,10 +35,17 @@ function App() {
     </Router>
   );
 }
-const event1 = "918 print making party at salt city book arts!"
-const link1 = "https://www.instagram.com/p/ChSlyQJOkAK/"
-const event2 = "A Trip To The Moon Art Market!"
-const link2 = "https://www.instagram.com/p/ChR4jhxOLAN/"
+const event1 = "Sunset Stroll an arts n crafts Roller Social!"
+const link1 = "https://www.instagram.com/p/ChBJqFPuYP7/"
+const event2 = "Ithaca Night Bazar!"
+const link2 = "https://www.eventbrite.com/e/ithaca-night-bazaar-tickets-302363706987"
+const event3 = "918.22 PRINT PARTY"
+const link3 = "https://www.instagram.com/p/ChSlyQJOkAK/"
+const event4 = "A Trip To The Moon Art Market!"
+const link4 = "https://www.instagram.com/p/ChR4jhxOLAN/"
+
+
+
 const Home = () => (
 
 
@@ -58,8 +65,29 @@ const Home = () => (
                 I use linolem and woodcut block prints. "Coffin's, Caskets, and Mourn" is my first Novel.
                 </p><p>
                 <br/><br/>
-                <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/><p> <strong className='event'>sep 16th: 2pm-6pm<br></br>sept 17th: 12pm-4pm</strong> <h2><a className='event' href ={link1}>{event1}</a></h2> Live music and vendor market<br/> @ 509 w Fayette St, Syracuse, NY</p><p> <strong className='event'>oct 8th:</strong> <h2><a className='event' href={link2}>{event2}</a></h2> 50+ Local artisan vendor's and Live Music!<br/> @ 100 college ave , Syracuse, NY</p></p>
+                <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/>
+                <p> <strong className='event'>sep 4th: 6pm-9pm</strong>
+                 <h2><a className='event' href ={link1}>{event1}</a>
+                 </h2> DJ phantom and vendor market
+                 <br/> @ 509 INNER HARBOR, Syracuse, NY</p><p> 
+                   <strong className='event'>sept 15th: 6pm-9pm</strong>
+                 <h2><a className='event' href={link2}>{event2}</a>
+                 </h2> Live Music, Burlesqe show, and Vendor Market<br/> @ Steamboat Landing , Ithaca, NY</p>
+                 <br/><br/>
                 
+                <p> <strong className='event'>sep 16th: 2pm-6pm<br></br>sept 17th: 12pm-4pm</strong>
+                 <h2><a className='event' href ={link3}>{event3}</a>
+                 </h2> 2 days of printmaking partying with amazing artists, various demonstrations, merch, raffles and more.  
+                 <br/> @ 509 w Fayette St, Syracuse, NY</p><p> <
+                   strong className='event'>oct 8th: 2pm-7pm</strong>
+                 <h2><a className='event' href={link4}>{event4}</a>
+                 </h2> 50+ Local artisan vendor's and Live Music!<br/> @ 100 college ave , Syracuse, NY</p>
+                 
+                 </p>
+                
+          
+                
+                 
                 
                 <br /><br /><Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
               </p>
