@@ -10,14 +10,8 @@ import Reader from './reader';
 import Losthymns from './losthymns';
 import threebulls from './components/images/CoffinsCasketsandmourn.gif';
 import Contactform from './contactform';
+import Etsyreview from './components/etsyadds/etsyreview';
 import etsyreview from './components/images/reviews/Screenshot from 2022-04-23 16-11-10.png'
-import etsy1 from './components/images/reviews/Screenshot from 2022-04-23 16-35-18.png'
-import etsy2 from './components/images/reviews/Screenshot from 2022-04-23 16-14-31.png'
-import etsy3 from './components/images/reviews/Screenshot from 2022-04-23 16-14-47.png'
-import etsy4 from './components/images/reviews/Screenshot from 2022-04-23 16-15-00.png'
-import etsy5 from './components/images/reviews/Screenshot from 2022-04-23 16-15-13.png'
-import etsy6 from './components/images/reviews/Screenshot from 2022-04-23 16-15-26.png'
-import etsy7 from './components/images/reviews/Screenshot from 2022-04-23 16-15-35.png'
 
 function App() {
 
@@ -77,11 +71,14 @@ const Home = () => (
               <p className="Paragraph4">
                 <section>
                   <img className='Rimage' src={etsyreview} alt='' />
-
+                  <section>
+                  <Etsyreview />
+                </section>
                 </section>
                 Welcome!<br/><br/> I am Kenneth Sinclair Author and Printmaker @HatchetPress
                 I use linolem and woodcut block prints. "Coffin's, Caskets, and Mourn" is my first Novel.
                 </p><p>
+                
                 <br/><br/>
                 <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/>
                 <h1>{event1}</h1>
@@ -111,27 +108,7 @@ const Home = () => (
                 
                 <br /><br /><Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
               </p>
-              <section>
-                <img className='Rimage' src={etsy1} alt='' />
-              </section>
-              <section>
-                <img className='Rimage' src={etsy2} alt='' />
-              </section>
-              <section>
-                <img className='Rimage' src={etsy3} alt='' />
-              </section>
-              <section>
-                <img className='Rimage' src={etsy4} alt='' />
-              </section>
-              <section>
-                <img className='Rimage' src={etsy5} alt='' />
-              </section>
-              <section>
-                <img className='Rimage' src={etsy6} alt='' />
-              </section>
-              <section>
-                <img className='Rimage' src={etsy7} alt='' />
-              </section>
+              
             </Col>
           
         </Col>
