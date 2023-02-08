@@ -29,15 +29,16 @@ function App() {
     </Router>
   );
 }
-const event1 = "TBA"
+// EVENT CALANDER AND DATES
+const event1 = "pleasure island"
+
+
+
+const link1 = "https://www.instagram.com/p/CoNgpbpuBTs/"
+const eventdate1 = "feb 26th: 12pm-5pm"
+const event1description = "Live Music and Shopping! Isreal Hogon solo Acoustic"
+const event1address =  "@ Entrance on Fayette Side, 217 S Salina St, Syracuse, NY 13202"
 /*
-EVENT CALANDER AND DATES
-
-const link1 = "https://www.instagram.com/p/ChBJqFPuYP7/"
-const eventdate1 = "sep 4th: 6pm-9pm"
-const event1description = "DJ phantom and vendor market"
-const event1address = "@ 509 INNER HARBOR, Syracuse, NY"
-
 const event2 = "Ithaca Night Bazar!"
 const link2 = "https://www.eventbrite.com/e/ithaca-night-bazaar-tickets-302363706987"
 const eventdate2 = "sept 15th: 6pm-9pm"
@@ -82,12 +83,14 @@ const Home = () => (
                 <br/><br/>
                 <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/>
                 <h1>{event1}</h1>
-                {/* 
+               
                 <p> <strong className='event'>{eventdate1}</strong>
                  <h2><a className='event' href ={link1}>{event1}</a>
                  </h2> {event1description}
-                 <br/>{event1address} </p><p> 
-                   <strong className='event'>{eventdate2}</strong>
+                 <br/><a className='event' href="https://www.google.com/maps/place/Wildflowers+Armory/@43.0488507,-76.1537488,17z/data=!4m5!3m4!1s0x89d9f34e099a73db:0xa40e93f2737b53f1!8m2!3d43.048849!4d-76.1515637"> {event1address} </a></p>
+                  {/* 
+                 <p>   
+                 <strong className='event'>{eventdate2}</strong>
                  <h2><a className='event' href={link2}>{event2}</a>
                  </h2> {event2description}<br/>{event2address} </p>
                  <br/><br/>
