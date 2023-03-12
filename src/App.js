@@ -30,20 +30,22 @@ function App() {
   );
 }
 // EVENT CALANDER AND DATES
-const event1 = "pleasure island"
+const event1 = "The Fool's Variety Show"
 
 
 
-const link1 = "https://www.instagram.com/p/CoNgpbpuBTs/"
-const eventdate1 = "feb 26th: 12pm-5pm"
-const event1description = "Live Music and Shopping! Isreal Hogon solo Acoustic"
-const event1address =  "@ Entrance on Fayette Side, 217 S Salina St, Syracuse, NY 13202"
-/*
-const event2 = "Ithaca Night Bazar!"
+const link1 = "https://www.instagram.com/p/Cpn-1TUOnNl/"
+const eventdate1 = "April 1st: 7pm-11pm"
+const event1description = "Local Artist Showcase, Performances, and More"
+const event1address =  "@ 200 S Geddes St, Syracuse, NY, United States, New York"
+const event1addresslink="https://www.google.com/maps/place/The+Little+Room/@43.0456975,-76.1713244,15z/data=!4m2!3m1!1s0x0:0x20d259a020af6c54?sa=X&ved=2ahUKEwii4dHCq9f9AhV4E1kFHdgoB1oQ_BJ6BAhAEAg"
+
+const event2 = "Sip and Shop!"
+
+const eventdate2 = "April 16th: 11am-3pm"/*
 const link2 = "https://www.eventbrite.com/e/ithaca-night-bazaar-tickets-302363706987"
-const eventdate2 = "sept 15th: 6pm-9pm"
-const event2description = "Live Music, Burlesqe show, and Vendor Market"
-const event2address = "@ Steamboat Landing , Ithaca, NY"
+const event2description = "variety of goods and art from local vendors"
+const event2address = "@ Alto Cinco Syracuse, Ny"
 
 
 const event3 = "918.22 PRINT PARTY"
@@ -83,16 +85,16 @@ const Home = () => (
                 <br/><br/>
                 <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/>
                 <h1>{event1}</h1>
-               
+                {event1description}
                 <p> <strong className='event'>{eventdate1}</strong>
                  <h2><a className='event' href ={link1}>{event1}</a>
-                 </h2> {event1description}
-                 <br/><a className='event' href="https://www.google.com/maps/place/Wildflowers+Armory/@43.0488507,-76.1537488,17z/data=!4m5!3m4!1s0x89d9f34e099a73db:0xa40e93f2737b53f1!8m2!3d43.048849!4d-76.1515637"> {event1address} </a></p>
-                  {/* 
-                 <p>   
+                 </h2> 
+                 <a className='event' href={event1addresslink}> {event1address} </a></p>
+                  
+                 <p>   <h2>{event2}</h2></p>
+                 <strong className='event'>{eventdate2}</strong> {/* 
                  <strong className='event'>{eventdate2}</strong>
-                 <h2><a className='event' href={link2}>{event2}</a>
-                 </h2> {event2description}<br/>{event2address} </p>
+                 {event2description}<br/>{event2address} </p>
                  <br/><br/>
                 
                 <p> <strong className='event'>{eventdate3}<br></br>sept 17th: 12pm-4pm</strong>
