@@ -84,10 +84,10 @@ const Home = () => (
                 
                 <br/><br/>
                 <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/>
-                <h1>{event1}</h1>
+                <h1><a className='event' href ={link1}>{event1}</a></h1>
                 {event1description}
                 <p> <strong className='event'>{eventdate1}</strong>
-                 <h2><a className='event' href ={link1}>{event1}</a>
+                 <h2>
                  </h2> 
                  <a className='event' href={event1addresslink}> {event1address} </a></p>
                   
