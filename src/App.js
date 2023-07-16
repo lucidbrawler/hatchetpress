@@ -76,12 +76,13 @@ const Home = () => (
                   <img className='Rimage' src={etsyreview} alt='' />
                   <section>
                   <Etsyreview />
+                  <Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
                 </section>
                 </section>
-                Welcome!<br/><br/> I am Kenneth Sinclair Author and Printmaker @HatchetPress
+                Welcome to Hatchet Press!<br/> I am Kenneth Sinclair Author and Printmaker.
                 I use linolem and woodcut block prints. "Coffin's, Caskets, and Mourn" is my first Novel.
                 </p><p>
-                
+               
                 <br/><br/>
                 <p className='Paragraph3'>UPCOMING EVENTS:<br/><br/>
                 
@@ -113,7 +114,7 @@ const Home = () => (
                 
                  
                 
-                <br /><br /><Button href="https://www.etsy.com/Shop/HatchetPressShop" variant="primary" >Etsy Shop</Button>
+                <br /><br />
               </p>
               
             </Col>
@@ -123,16 +124,17 @@ const Home = () => (
         
         
         <Col>
-         
-            <Col>
+        
+            <Col> 
+            <div className="Paragraph4" >
               <header className="App-header">
-
+              <h1 className='event'> Publications</h1>
              
                   <Card className="Card" >
                     <Card.Img className="Card_image" src={image} />
                     <Card.Body >
                       <Card.Title>
-                        By Kenneth Sinclair
+                        By: Kenneth Sinclair
                       </Card.Title>
                       <Card.Text>
                         <p className="Paragraph">
@@ -143,17 +145,18 @@ const Home = () => (
                           While Harold struggles to find purpose in this life, Andrew
                           searches for purpose in the afterlife.
                         </p>
-                        <img src={threebulls} remwidth={256} height={256} className="image" alt="" />
-                        <p className="Paragraph3">
+                        
+                        <p className="Paragraph3"><Button className="button" href="https://issuu.com/hatchetpress/docs/ccm_2_issu_sample_chapter..docx" variant="none"><img src={threebulls} remwidth={256} height={256} className="image" alt="" /></Button><br/>
                           Read more! A Sample Chapter is available on Issue, or go straight to the store and buy it now!
                         </p>
                       </Card.Text>
-                      <Button className="button" href="https://issuu.com/hatchetpress/docs/ccm_2_issu_sample_chapter..docx" variant="primary">Read More</Button>
+                      
                       <Button className="button" href="https://www.lulu.com/en/us/shop/kenneth-sinclair/coffins-caskets-and-mourn/paperback/product-1zk2krjq.html?page=1&pageSize=4" variant="primary">Buy Now</Button>
                     </Card.Body>
                   </Card>
               
               </header>
+              </div>
             </Col>
          
         </Col>
