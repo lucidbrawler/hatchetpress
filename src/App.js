@@ -38,7 +38,7 @@ const event1address =  "@ 1438  Comstock Ave, Syracuse, NY, United States, New Y
 const event1addresslink="https://www.google.com/maps/place/1438+Comstock+Ave,+Syracuse,+NY+13210/@43.0180214,-76.1284846,17z/data=!4m15!1m8!3m7!1s0x89d9f48106709779:0x1d726067131ee634!2s1438+Comstock+Ave,+Syracuse,+NY+13210!3b1!8m2!3d43.0180214!4d-76.1284846!16s%2Fg%2F11c26rfllt!3m5!1s0x89d9f48106709779:0x1d726067131ee634!8m2!3d43.0180214!4d-76.1284846!16s%2Fg%2F11c26rfllt?entry=ttu"
 
 const event2 = "Wet Hot American Market II: Summer Camp!"
-const link2 = "https://www.eventbrite.com/e/ithaca-night-bazaar-tickets-302363706987"
+const link2 = "https://www.instagram.com/p/CuzPqb0OROX/"
 const eventdate2 = "Aug 6th: TBD"
 const event2description = "variety of goods and art from local vendors"
 const event2address = "@ Sharkey’s Events Center Liverpool NY 13090"
@@ -46,7 +46,7 @@ const event2addresslink="https://www.google.com/maps/place/Sharkey's+Banquets+%2
 
 
 const event3 = " Salt City Book Arts PRINT PARTY"
-const link3 = "https://www.instagram.com/p/ChSlyQJOkAK/"
+const link3 = ""
 const eventdate3 = "Sept 23rd"
 const event3description = "Printmaking Demos! vendors! exhibition!"
 const event3address = "@ Maker Space a downtown Central Library"
