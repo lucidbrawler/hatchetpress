@@ -11,7 +11,7 @@ import Losthymns from './losthymns';
 import threebulls from './components/images/CoffinsCasketsandmourn.gif';
 import Contactform from './contactform';
 import Etsyreview from './components/etsyadds/etsyreview';
-import etsyreview from './components/images/reviews/Screenshot from 2022-04-23 16-11-10.png'
+import etsyreview from './components/images/reviews/etsylogo1.png'
 
 function App() {
 
