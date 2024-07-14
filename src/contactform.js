@@ -17,7 +17,7 @@ const ContactForm = () => {
     let response = await fetch("https://glacial-garden-61233.herokuapp.com/contact", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json;charset=utf-8;x-www-form-urlencoded",
+        "Content-Type": "application/json;charset=utf-8",
       },
       body: JSON.stringify(details),
     });
@@ -32,7 +32,7 @@ const ContactForm = () => {
 
     <header className="App-header">
     <p className="Paragraph3">Hatchet Press is currently looking for vendor events and opportunities. </p> 
-    <form form-name="Submission" onSubmit={handleSubmit} netlify>
+    <form form-name="Submission" name="form-name" onSubmit={handleSubmit} netlify>
       <div  className="">
         <label className="Paragraph" htmlFor="name">Name:</label>
         <input type="text" id="name" required />
