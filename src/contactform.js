@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import './App.css';
 
 const ContactForm = () => {
+
   const [status, setStatus] = useState("Submit");
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,15 +25,13 @@ const ContactForm = () => {
     let result = await response.json();
     alert(result.status);
   };
-  
-  
-  
+ 
   return (
     <div  style={{ display:'flex', justifyContent:'center'}} className="contact"> 
       
     <header className="App-header">
     <p className="Paragraph3">Hatchet Press is currently looking for vendor events and opportunities. </p> 
-    <form className="" onSubmit={handleSubmit}>
+    <form name="Submission" onSubmit={handleSubmit} netlify>
       <div  className="">
         <label className="Paragraph" htmlFor="name">Name:</label>
         <input type="text" id="name" required />
@@ -45,6 +44,7 @@ const ContactForm = () => {
         <label className="Paragraph" htmlFor="message">Message:</label>
         <textarea id="message" required />
       </div>
+      
       <button type="submit">{status}</button>
     </form>
     </header>
