@@ -28,7 +28,8 @@ const ContactForm = () => {
  
   return (
     <div  style={{ display:'flex', justifyContent:'center'}} className="contact"> 
-      
+      <input type="hidden" name="form-name" value="Submission" />
+
     <header className="App-header">
     <p className="Paragraph3">Hatchet Press is currently looking for vendor events and opportunities. </p> 
     <form name="Submission" onSubmit={handleSubmit} netlify>
